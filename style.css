@@ -33,21 +33,27 @@ h2 {
     color: #8E4444;
 }
 
+.btn:hover {
+    background-color: #8E4444;
+    color: white;
+}
+
 .products {
     background-image: url(img/background_products.svg);
-    height: 65vw;
+    background-size: cover;
+
 }
 
 .sustainability {
     background-image: url(img/background_sustainability.svg);
     background-size: cover;
-    height: 70vw;
+
 }
 
 .about_us {
     background-image: url(img/background_about_us.svg);
     background-size: cover;
-    height: 71vw;
+
 }
 
 .transparent_box1 {
@@ -72,4 +78,27 @@ h2 {
 
 footer {
     background-color: #C59D87;
+    background-size: cover;
+
+}
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.parallax-1 {
+    min-height: 500px;
+    min-width: 100%;
+    background-image: url("img/fruit_2.jpg");
+    background-size: cover;
+}
+
+
+.parallax-2 {
+    min-height: 500px;
+    background-image: url("img/watermelon.jpg");
+    background-size: cover;
 }
