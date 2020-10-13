@@ -84,12 +84,14 @@ footer {
 
 .parallax {
     position: relative;
-    background-attachment: fixed;
+    overflow: hidden;
+    height: 70vh;
+    /* background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
-.parallax-1 {
+/*.parallax-1 {
     min-height: 500px;
     min-width: 100%;
     background-image: url("img/fruit_2.jpg");
@@ -101,4 +103,25 @@ footer {
     min-height: 500px;
     background-image: url("img/watermelon.jpg");
     background-size: cover;
+}*/
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image: url("img/fruit_2.jpg");
+}
+
+.bg2 {
+    background-image: url("img/watermelon.jpg");
 }
